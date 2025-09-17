@@ -5,6 +5,10 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
    base: '/dna-dashboard/',
+   build: {
+    outDir: 'dist',
+    assetsDir: 'assets'
+  },
   server: {
     port: 3000, // o la porta che preferisci
     host: true, // per permettere connessioni esterne
