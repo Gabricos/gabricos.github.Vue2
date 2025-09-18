@@ -1,29 +1,13 @@
-# dna-dashboard
+DnA Dashboard - Newspaper Analytics
+Dashboard interattiva per monitorare le metriche di traffico del sito web della testata online DnA creata con VUE.
+Caratteristiche
 
-This template should help get you started developing with Vue 3 in Vite.
+Metriche in tempo reale: Subscriptions, Impressions, Clicks, Average Time
+Grafici interattivi: Chart.js per visualizzazioni chiare
+Aggiornamenti automatici: Le impressions aumentano ogni 2 secondi
+Design responsive: Ottimizzato per desktop e mobile
+Interface moderna: Card interattive con hover effects
 
-## Recommended IDE Setup
+Tecnologie utilizzate
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Vue.js 3, Chart.js, Axios, Vite
